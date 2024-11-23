@@ -43,3 +43,8 @@ body{
     border-radius: 50%;
     color: white;
 }
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
