@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #ffffff;
+
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.header{
+    height: 83px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F0F2F3;
+    padding:0 20px;
+}
+.header input{
+    width: 350px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 8px;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background-color: white;
+    padding: 5px 8px;
+    border-radius: 5px;
+}
+.cart span{
+    width: 22px;
+    height: 22px;
+    text-align: center;
+    background-color: #007580;
+    border-radius: 50%;
+    color: white;
+}
